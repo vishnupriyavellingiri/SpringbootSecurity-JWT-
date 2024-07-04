@@ -31,7 +31,7 @@ import com.bezkoder.springjwt.repository.RoleRepository;
 import com.bezkoder.springjwt.repository.UserRepository;
 import com.bezkoder.springjwt.security.jwt.JwtUtils;
 import com.bezkoder.springjwt.security.services.UserDetailsImpl;
-//vishnu changes commited
+//ramesh changes commited
 @CrossOrigin(origins = "*", maxAge = 3600) //  Cross-Origin Resource Sharing (CORS) 
 @Controller
 @RequestMapping("/api/auth")
