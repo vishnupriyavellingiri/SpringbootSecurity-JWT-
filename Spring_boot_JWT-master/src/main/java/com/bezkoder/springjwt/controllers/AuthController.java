@@ -33,7 +33,7 @@ import com.bezkoder.springjwt.security.jwt.JwtUtils;
 import com.bezkoder.springjwt.security.services.UserDetailsImpl;
 //ramesh changes commited
 @CrossOrigin(origins = "*", maxAge = 3600) //  Cross-Origin Resource Sharing (CORS) 
-@RestController
+@Controller
 @RequestMapping("/api/auth")
 public class AuthController {
   @Autowired
